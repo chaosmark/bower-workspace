@@ -1,0 +1,50 @@
+{
+  "name": "bower-workspace",
+  "description": "A cli utility based to simplify link-ing and install-ing of bower packages locally. Based on npm-workspace which does the same thing but for npm modules.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nexdynamic/npm-workspace",
+  "author": {
+    "name": "nexdynamic"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nexdynamic/bower-workspace"
+  },
+  "bugs": {
+    "url": "https://github.com/nexdynamic/bower-workspace/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nexdynamic/bower-workspace/issues/blob/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "node_modules/mocha/bin/_mocha test/*.js -t 30000 --reporter spec"
+  },
+  "bin": {
+    "bower-workspace": "bin/bower-workspace"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "~2.2.0",
+    "lodash": "~2.4.1",
+    "rimraf": "~2.2.2",
+    "when": "~3.0.1",
+    "ncp": "~0.5.0",
+    "spawned": "~0.1.3",
+    "through2": "~0.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1"
+  },
+  "keywords": [
+    "bower",
+    "link",
+    "dependencies",
+    "peerDependencies",
+    "workspace",
+    "automatic"
+  ]
+}

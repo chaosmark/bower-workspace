@@ -1,0 +1,10 @@
+{
+  "name": "prj1",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nexdynamic/npm-workspace",
+   "dependencies": {
+        "graceful-fs": "*",
+        "prj2": "*"
+    },
+  "private": true
+}
